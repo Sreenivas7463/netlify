@@ -18,13 +18,7 @@ exports.handler = async function (event, context) {
       headers: { "Cache-Control": "max-age=10" },
       body: JSON.stringify({ name: "Purrsloud", species: "cat", "photo": "https://learnwebcode.github.io/json-example/images/cat-2.jpg", bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis asperiores, sunt consectetur a amet dolorem rem animi tempore molestias nesciunt fuga, sequi alias voluptatum totam reprehenderit assumenda deleniti distinctio? Cumque. Lorem ipsum." })
     }
-  } else if (name === "TV9") {
-    return {
-      statusCode: 200,
-      headers: { "Cache-Control": "max-age=10" },
-      body: JSON.stringify({ name: "TV9", species: "cat", "photo": "https://learnwebcode.github.io/json-example/images/cat-2.jpg", bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis asperiores, sunt consectetur a amet dolorem rem animi tempore molestias nesciunt fuga, sequi alias voluptatum totam reprehenderit assumenda deleniti distinctio? Cumque. Lorem ipsum." })
-    }
-  } else {
+  }  else {
     return {
       statusCode: 404,
       headers: { "Cache-Control": "max-age=10" },
