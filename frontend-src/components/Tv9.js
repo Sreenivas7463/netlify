@@ -47,5 +47,5 @@ function Tv9(props) {
     )
   }
   
-  export default Animal
+  export default Tv9
   
