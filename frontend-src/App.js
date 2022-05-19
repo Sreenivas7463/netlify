@@ -42,9 +42,6 @@ function App() {
           <Route path="/animal/:name">
             <Animal />
           </Route>
-          <Route path="/tv9/:name">
-            <Tv9 />
-          </Route>
           <Route path="/secret">
             <Secret />
           </Route>
